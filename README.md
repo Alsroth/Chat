@@ -1,13 +1,19 @@
 # Chat
 
-Description :
+# Description :
 
-Un simple chat qui permet de s'échanger sur internet à l'aide du terminal. Aucun compte juste un pseudo, deux fichier python et c'est parti ! 
+Ce projet implémente un système simple de serveur et client de chat en Python utilisant des sockets. Le serveur peut gérer plusieurs clients simultanément et inclut également une interface web basique pour afficher les messages récents.
 
-Tech : 
+## Fonctionnalités
 
-Python !
+- **Communication Client-Serveur :** Les clients peuvent se connecter au serveur, envoyer des messages, et recevoir des messages des autres clients.
+- **Diffusion des Messages :** Le serveur diffuse les messages à tous les clients connectés, sauf à l'expéditeur.
+- **Serveur Multi-thread :** Le serveur gère plusieurs clients en même temps.
+- **Interface Web :** Une interface web basique est fournie pour afficher les cinq derniers messages échangés sur le serveur.
 
-Compilation : 
+## Installation
 
-Je sais plus :/
+1. **Cloner le Dépôt :**
+
+   ```bash
+   git clone https://github.com/Alsroth/Chat.git
